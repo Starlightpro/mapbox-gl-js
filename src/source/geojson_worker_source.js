@@ -6,7 +6,7 @@ import performance from '../util/performance';
 import rewind from '@mapbox/geojson-rewind';
 import GeoJSONWrapper from './geojson_wrapper';
 import vtpbf from 'vt-pbf';
-import Supercluster from 'supercluster';
+import Supercluster from '@starlightpro/supercluster';
 import geojsonvt from 'geojson-vt';
 import assert from 'assert';
 import VectorTileWorkerSource from './vector_tile_worker_source';
